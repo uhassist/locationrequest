@@ -3,12 +3,24 @@ $( document ).ready(function() {
 });
 
 
-function checkFormasdfsadf() {
+function checkForm() {
+  var msg = "";
+
   console.log($('#locationcode').val().length);
 
   var locationcodelength = $('#locationcode').val().length;
-  if(locationcodelength > 10) {
-    alert("Your Location Code is over 10 characters!");
+
+  if(locationcodelength == 0) {
+  	msg += "Location Code required\n"
+  }
+  
+  var whiteSpace = $('#locationcode').val().indexOf(' ')>=0;
+  if(whiteSpace) {
+  	msg += "Your Location Code has 1 or more spaces\n"
+  }
+  
+  if(msg!="") {
+  	alert(msg);
   }
 
   return false;

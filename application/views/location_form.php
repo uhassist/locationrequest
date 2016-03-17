@@ -24,17 +24,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   
   <div class="row">
     <div class="col-md-4"><p>Location Name</p></div>
-    <div class="col-md-8"><p><input type="text" id="locationname" name="locationname" /></p></div>
+    <div class="col-md-8"><p><input type="text" id="locationname" name="locationname" maxlength="25"/></p></div>
   </div>
   
   <div class="row">
     <div class="col-md-4"><p>Spine Label Name</p></div>
-    <div class="col-md-8"><p><input type="text" id="spinelabelname" name="spinelabelname" /></p></div>
+    <div class="col-md-8"><p><input type="text" id="spinelabelname" name="spinelabelname" maxlength="10"/></p></div>
   </div>
 
   <div class="row">
     <div class="col-md-4"><p>OPAC Display Name</p></div>
-    <div class="col-md-8"><p><input type="text" id="opacdisplayname" name="opacdisplayname" /></p></div>
+    <div class="col-md-8"><p><input type="text" id="opacdisplayname" name="opacdisplayname" maxlength="60"/></p></div>
   </div>
 
   <div class="row">
