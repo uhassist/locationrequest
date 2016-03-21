@@ -19,12 +19,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
   <div class="row">
     <div class="col-md-4"><p>Location Code</p></div>
-    <div class="col-md-8"><p><input type="text" id="locationcode" name="locationcode" maxlength="10" /></p></div>
+    <div class="col-md-8"><p><input type="text" id="locationcode" name="locationcode" maxlength="10" required /></p></div>
   </div>
   
   <div class="row">
     <div class="col-md-4"><p>Location Name</p></div>
-    <div class="col-md-8"><p><input type="text" id="locationname" name="locationname" maxlength="25"/></p></div>
+    <div class="col-md-8"><p><input type="text" id="locationname" name="locationname" maxlength="25" required /></p></div>
   </div>
   
   <div class="row">
@@ -34,7 +34,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
   <div class="row">
     <div class="col-md-4"><p>OPAC Display Name</p></div>
-    <div class="col-md-8"><p><input type="text" id="opacdisplayname" name="opacdisplayname" maxlength="60"/></p></div>
+    <div class="col-md-8"><p><input type="text" id="opacdisplayname" name="opacdisplayname" maxlength="60" required /></p></div>
   </div>
 
   <div class="row">
