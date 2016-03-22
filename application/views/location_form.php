@@ -16,7 +16,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="col-md-12" id="title"><h1>UH Voyager Location Request Form</h1></div>
   </div>
 
-  <form action="pageitgoesto.php" action="POST" onsubmit = "return checkForm()">
+  <?php  echo form_open('welcome/send');?>
 
   <div class="row">
     <div class="col-md-4">
